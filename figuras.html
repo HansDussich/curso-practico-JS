@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Figuras Geometricas</h1>
+      <p>Curso practico de javaScript</p>
+    </header>
+
+    <section>
+      <h2>Calcula el área y perímetro de un cuadrado</h2>
+      <form>
+        <label for="InputCuadrado">
+          Escribe cuánto mide cada lado de tu cuadrado:
+        </label>
+        <input id="InputCuadrado" type="number" />
+        <button type="button" onclick="calcularPerimetroCuadrado()">
+          Calcular el perímetro
+        </button>
+        <button type="button" onclick="calcularAreaCuadrado()">
+          Calcular el área
+        </button>
+      </form>
+    </section>
+
+
+
+    <div class="figures-item">
+      <h2>Triangulo</h2>
+      <form>
+        <label for="tLado1">Ingresa el tamaño del primer lado</label>
+        <input name="tLado1" id="tLado1" type="number">
+        <label for="tLado2">Ingresa el tamaño del segundo lado</label>
+        <input name="tLado2" id="tLado2" type="number">
+        <label for="tBase">Ingresa el tamaño de la base</label>
+        <input name="Base" id="tBase" type="number">
+        <label for="tAltura">Ingresa el tamaño del primer lado</label>
+        <input name="tAltura" id="tAltura" type="number">
+        <button type="button" onclick="triangulo2()">Calcular</button>
+      </form>
+    </div>
+
+    <script src="./figuras.js"></script>
+  </body>
+</html>
